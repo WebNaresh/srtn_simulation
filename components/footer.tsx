@@ -46,7 +46,7 @@ export function Footer() {
                 <GraduationCap className="h-5 w-5 text-cyan-600" />
                 Project Guide
               </h3>
-              <p className="text-slate-700">Professor Bhide Sir</p>
+              <p className="text-slate-700">Mr. Bhide Sir</p>
             </div>
           </div>
 
