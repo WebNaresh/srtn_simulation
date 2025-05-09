@@ -1,5 +1,7 @@
 import { SRTNSimulator } from "@/components/srtn-simulator"
 import { Footer } from "@/components/footer"
+import { IntroSection } from "@/components/intro-section"
+import { HowItWorks } from "@/components/how-it-works"
 
 export default function Home() {
   return (
@@ -17,10 +19,14 @@ export default function Home() {
             smallest remaining burst time.
           </p>
         </header>
+        <Footer />
+
+        <IntroSection />
+
+        <HowItWorks />
 
         <SRTNSimulator />
 
-        <Footer />
       </div>
     </main>
   )
