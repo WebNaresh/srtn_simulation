@@ -113,19 +113,7 @@ export function IntroSection() {
                       where response time is critical.
                     </p>
 
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
-                      <h4 className="font-medium text-blue-700 mb-2">Learn more about CPU scheduling:</h4>
-                      <div className="flex items-center gap-2">
-                        <Button variant="outline" size="sm" className="flex items-center gap-1">
-                          <ExternalLink className="h-3 w-3" />
-                          Operating Systems Concepts
-                        </Button>
-                        <Button variant="outline" size="sm" className="flex items-center gap-1">
-                          <ExternalLink className="h-3 w-3" />
-                          CPU Scheduling Algorithms
-                        </Button>
-                      </div>
-                    </div>
+                   
                   </motion.div>
                 )}
 

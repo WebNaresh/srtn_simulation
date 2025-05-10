@@ -2,6 +2,7 @@ import { SRTNSimulator } from "@/components/srtn-simulator"
 import { Footer } from "@/components/footer"
 import { IntroSection } from "@/components/intro-section"
 import { HowItWorks } from "@/components/how-it-works"
+import { ThankYouSection } from "@/components/thank-you-section"
 
 export default function Home() {
   return (
@@ -26,7 +27,9 @@ export default function Home() {
         <HowItWorks />
 
         <SRTNSimulator />
+  
 
+        <ThankYouSection />
       </div>
     </main>
   )
